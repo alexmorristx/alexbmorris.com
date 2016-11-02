@@ -1,0 +1,158 @@
+
+
+<!DOCTYPE html>
+
+
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blog</title>
+
+
+<!-- referencing style sheets and google fonts-->
+  <link href="assets/css/hamburgers.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/set2.css">
+  <!-- make sure I have different wieghts-->
+ <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800" rel="stylesheet">
+
+</head>
+<body>
+
+<!--navigation-->
+<nav class="navbar navbar-default">
+  <div class="containter-fluid">
+    <div class="navbar-header">
+      <button class="hamburger hamburger--spin hidden-lg hidden-md hidden-sm ham-position" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+          </span>
+        </button>
+          <a class="navbar-brand" href="index.html">
+              <img alt="Brand" src="assets/imgs/logo.png">
+          </a>
+        </div>
+
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="blog.html" class="active">Blog</a>
+          </li>
+          <li>
+            <a href="assets/imgs/resume.pdf" target="blank">Resume</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!--page content-->
+
+  <!-- header-->
+  <div class="container">
+    <div class="row ">
+      <div class="col-lg-12">
+        <h1>
+              Blog
+            </h1>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Projects Row -->
+  <div class="container">
+
+  <!--row 1-->
+    <div class="row grid">
+
+      <div class="col-sm-6 blog-item blog-item-l">
+          <a href="blog-1.html">
+            <img src="assets/imgs/blog/whyrespond1.jpg" class="img-responsive extra-photo">
+           <h4>Why respond when you can adapt?</h4>
+           <h6> August 30, 2016 </h6>
+          <p> Responsive design is great, but adaptive design is better. Americanairlines.com adapts to your needs on all devices. </p>
+        </a>
+      </div>
+
+      <div class="col-sm-6 blog-item blog-item-r">
+          <a href="blog-2.html">
+            <img src="assets/imgs/blog/giveandtake1.jpg" class="img-responsive extra-photo">
+           <h4>Give and Take: Feedback</h4>
+           <h6> August 30, 2016 </h6>
+          <p> Across many disciplines, especially in design, receiving and implementing feedback will make you better. Though it may be nice to surround yourself with friendly peers that only have compliments for you, asking and allowing for feedback in your process will improve your product, process, and/or position. </p>
+        </a>
+      </div>
+
+ <!--row 2-->
+    <div class="row grid">
+      <div class="col-sm-6 blog-item blog-item-l">
+          <a href="blog-3.html">
+            <img src="assets/imgs/blog/workingwith1.jpg" class="img-responsive extra-photo">
+           <h4>Working For a Client Means Working With a Client</h4>
+           <h6> June 15, 2016 </h6>
+          <p> Clients often are bound by logical concerns and considerations. Designers have a natural desire to push boundaries and can easily feel judged or constrained. We have found that the best way to work for a client is to work with a client. </p>
+        </a>
+      </div>
+
+      <div class="col-sm-6 blog-item blog-item-r">
+          <a href="blog-4.html">
+            <img src="assets/imgs/blog/designprocess1.jpg" class="img-responsive extra-photo">
+           <h4>4 Steps to the Design Process</h4>
+           <h6> May 23, 2016 </h6>
+          <p> People are constantly trying to define the word "design". One of the ways people try to, is, first, defining the design process. There are an infinite number of problems which designers are trying to solve, so everyone’s design process is different. Nevertheless, I believe there are a few basic steps in the design process: defining the problem, information gathering, execution, and re-evaluation. </p>
+        </a>
+      </div>
+
+
+</div>
+    
+  <!-- icons in footer -->
+  <div class="container">
+    <div class="row footer-spacing">
+      <div class="col-sm-12">
+        <a id="icon" href="https://www.linkedin.com/in/alexbmorris" target="blank" icon>
+          <img src="assets/imgs/LI.png ">
+        </a>
+        <a id="icon" href="https://vimeo.com/user38578022" target="blank" icon>
+          <img src="assets/imgs/vimeo.png">
+        </a>
+      </div>
+      <div class="col-sm-12 footer-spacing">
+        <p id="tiny-text"> Made with <img src="assets/imgs/heart.png"> by Alex Morris with the help of Boostrap </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- jquery-->
+  <script src="assets/js/jquery.js"></script>
+
+  <!-- boostrap javascript, best to go at the bottom but can go at the top-->
+  <script src="assets/js/bootstrap.js"></script>
+<script>
+          // Look for .hamburger
+          var hamburger = document.querySelector(".hamburger");
+          // On click
+          hamburger.addEventListener("click", function() {
+              // Toggle class "is-active"
+              hamburger.classList.toggle("is-active");
+              // Do something else, like open/close menu
+          });
+      </script>
+
+</body>
+
+</html>
+

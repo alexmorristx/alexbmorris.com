@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+ <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student Rabbit</title>
+
+
+<!-- referencing style sheets and google fonts-->
+  <link href="assets/css/hamburgers.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/set2.css">
+  <!-- make sure I have different wieghts-->
+ <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800" rel="stylesheet">
+
+</head>
+<body>
+
+<!--navigation-->
+<nav class="navbar navbar-default">
+  <div class="containter-fluid">
+    <div class="navbar-header">
+      <button class="hamburger hamburger--spin hidden-lg hidden-md hidden-sm ham-position" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+          </span>
+        </button>
+          <a class="navbar-brand" href="index.html">
+              <img alt="Brand" src="assets/imgs/logo.png">
+          </a>
+        </div>
+
+
+<!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="assets/imgs/resume.pdf" target="blank">Resume</a>  
+                    </li>
+                </ul>
+            </div>
+   </div>
+</nav>
+
+
+<!--page content-->
+
+<!-- header-->
+ <div class="container text-spacing">
+  		<div class="row">
+  			<div class="col-lg-12">
+  		      <h1 > 
+              Student<span> Rabbit </span>
+            </h1>	
+            <h6> Web Design, UX, UI Branding | September-December 2015 </h6>
+            <h5>The Challenge</h5>
+            <p>Student Rabbit was seeking a redesign to their current site <a href="www.studentrabbit.com"> www.studentrabbit.com </a>  to create a better user flow making it easier for students exchange textbooks. Student Rabbit also wanted to increase their brand success by strongly marketing their unique product offering: Save money by safely exchanging textbooks with students on your campus. </p>	
+  		  </div>
+  	 </div>
+</div>
+
+
+<!-- Img Row 1-->
+<div class="container-fluid">
+        <!--row 1-->
+        <div class="row">
+            <div class="col-md-12 portfolio-item">
+                    <img class="img-responsive" src="assets/imgs/sr/sr1.jpg" alt="">
+            </div>
+        </div>
+       
+</div>
+  
+
+
+
+<!-- More Content-->
+ <div class="container text-spacing">
+      <div class="row ">
+        <div class="col-lg-12">
+
+            <h5>The Solution</h5>
+            <p>I worked on a team of five students from <a href="www.northeastern.edu/scout.com"> Scout</a>, Northeastern's student-lead design firm, to rebrand and redesign studentrabbit.com. I helped lead the rebrand by developing a new color scheme, logo and style guide as well as Facebook ads and email templates. Once branding was complete, I helped a team of designers to improve the UI/UX of the site, which included simplifying the process of exchanging textbooks. I also helped create the high fidelity mockups that we presented to the client to be approved for development. I was given the chance to write the code for a small portion of the site, which was a great learning experience. </p>  
+        </div>
+     </div>
+</div>
+
+<!-- Img 2-->
+<div class="container-fluid">
+        <!--row 1-->
+        <div class="row">
+            <div class="col-md-12 portfolio-item">
+                    <img class="img-responsive" src="assets/imgs/sr/sr2.jpg" alt="">
+            </div>
+        </div>
+        <!--row 2-->
+        <div class="row">
+            <div class="col-md-12 portfolio-item">
+                    <img class="img-responsive" src="assets/imgs/sr/sr3.jpg" alt="">
+            </div>
+        </div>
+</div>
+  
+
+
+<!--all projects-->
+<div class="container">
+  <div class="row">
+    <ul class="related-projects related-projects-small">
+         <li>
+           <a href="index.html">All</a>
+         </li>
+         <li>
+         <a href="niftyapp.html" >Nifty App</a>
+         </li>
+         <li>
+         <a href="forbacon.html">Forbacon.co</a>
+         </li>
+         <li>
+         <a href="arewethereyet.html">Are We There Yet?</a>
+         </li>    
+         <li>
+           <a href="studentrabbit.html" class="active">Student Rabbit</a>
+         </li>
+         <li>
+         <a href="coffeebar.html">Coffee Bar</a>
+         </li>                       
+     </ul>
+  </div>
+</div>
+
+
+  
+
+<!-- icons in footer -->
+<div class="container">
+    <div class="row footer-spacing">
+      <div class="col-sm-12">
+        <a id="icon" href="https://www.linkedin.com/in/alexbmorris" target="blank" icon>
+          <img src="assets/imgs/LI.png ">
+        </a>
+        <a id="icon" href="https://vimeo.com/user38578022" target="blank" icon>
+          <img src="assets/imgs/vimeo.png">
+        </a>
+      </div>
+      <div class="col-sm-12 footer-spacing">
+        <p id="tiny-text"> Made with   <img src="assets/imgs/heart.png" > by Alex Morris with the help of Boostrap </p>
+      </div>
+    </div>
+</div>
+
+
+
+
+<!-- jquery-->
+<script src="assets/js/jquery.js"></script>
+
+<!-- boostrap javascript, best to go at the bottom but can go at the top-->
+<script src="assets/js/bootstrap.js"></script>
+
+  <script>
+          // Look for .hamburger
+          var hamburger = document.querySelector(".hamburger");
+          // On click
+          hamburger.addEventListener("click", function() {
+              // Toggle class "is-active"
+              hamburger.classList.toggle("is-active");
+              // Do something else, like open/close menu
+          });
+      </script>
+
+</body>
+
+</html>
