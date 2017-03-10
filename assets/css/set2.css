@@ -21,9 +21,7 @@
 .grid figure img {
 	position: relative;
 	display: block;
-	min-height: 100%;
 	opacity: 1;
-	width: 100%;
 }
 
 .grid figure figcaption {
