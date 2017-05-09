@@ -1,3 +1,4 @@
+
 .ham-position {
   position: fixed;
   top: 0;
@@ -164,11 +165,15 @@ a {
 }
 
 .persona {
-  height: 120px;
+  padding-top: 12px;
+  margin-left: auto;
+  height: 150px;
   width: auto;
 }
 
-
+.persona-text{
+  text-align: left;
+}
 
 
 
@@ -191,17 +196,22 @@ a {
 
 
 .me-picture {
-  margin-top: 5em;
+
   margin-right: auto;
   margin-left: auto;
+  margin-top: 2em;
   margin-bottom: 3em;
 }
 
 .text-spacing{
     margin-left: auto;
     margin-right: auto;
-    max-width: 50em;
+    max-width: 40em;
     margin-bottom: 2em;
+}
+
+.space{
+  margin-top: 2em;
 }
 
 .toggle{
@@ -299,9 +309,7 @@ a#h4 {
   padding-left: 100px
 }
 
-.video {
-    padding-left: 75px;
-}
+
 
 .box{
   max-width: auto;
@@ -309,13 +317,22 @@ a#h4 {
 
 }
 
+.box-test{
+  height: 300px;
+  max-width: auto;
+}
+
 .box-small{
   max-width: auto;
   height:233.33px;
 }
 
+.tempo-color{
+  background: #2da2d9;
+}
+
 .adviseme-color{
-  background:#4b5973;
+  background:#ffca3a;
 
 }
 
@@ -328,7 +345,7 @@ a#h4 {
 }
 
 .sr-color{
-  background:#6ac5c6;
+  background:#ff8e16;
 }
 
 .nifty-color{
@@ -337,6 +354,7 @@ a#h4 {
 .coffee-color{
   background:#ff783b;
 }
+
 
 
 .box-img{
