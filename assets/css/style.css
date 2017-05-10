@@ -142,7 +142,6 @@ h4 {
 
 h5 {
   text-transform: uppercase;
-  margin-top: 50px;
   color: #4a4a4a;
   font-size: 18px;
   font-weight: 800;
@@ -207,11 +206,12 @@ a {
     margin-left: auto;
     margin-right: auto;
     max-width: 40em;
-    margin-bottom: 2em;
+    margin-bottom: 3em;
+    margin-top: 2em;
 }
 
 .space{
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
 .toggle{
