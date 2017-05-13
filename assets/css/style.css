@@ -1,3 +1,8 @@
+a.scroll-text:hover, a.scroll-text:visited, a.scroll-text:active, a.scroll-text:focus {
+    color: inherit;
+   text-decoration: none; 
+
+}
 
 
 .scroll{
