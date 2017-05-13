@@ -1,3 +1,24 @@
+.scroll{
+text-align: center;
+  padding-bottom: 2em; 
+  }
+  
+.container-box {
+    position: relative;
+    margin-top: 90px;
+    margin-bottom: 130px;   
+}
+
+
+.logo-box {
+  background-color: #1dbb90;
+  width:300px;
+  height:300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
 
 .ham-position {
   position: fixed;
@@ -103,18 +124,30 @@ h1{
   font-weight: 300;
   font-size: 50px;
   text-align: center;
-  word-spacing: -0.15em;
   text-transform: uppercase;
   padding-bottom: 10px;
 
 }
+h1#header-bio {
+  text-align: left;
+   font-size: 24px;
+  font-weight: 800;
 
-.header{
-  word-spacing: 0em;
- font-size: 24px;
- font-weight: 800;
- text-transform: none;
+
 }
+
+
+h1#header{
+text-transform: none;
+  color: white;
+  font-size: 18px;
+  text-align: left;
+  line-height: 23px;
+  padding: 2em;
+  padding-top: 5em;
+ 
+}
+
 
 h1 span {
   font-weight: 800;
