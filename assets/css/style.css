@@ -166,10 +166,15 @@ h1{
 }
 h1#header-bio {
   text-align: left;
-   font-size: 24px;
-  font-weight: 800;
-
-
+  font-weight: 600;
+  font-size: 40px;
+  text-transform: none;
+}
+h1#header-bio-xs {
+  text-align: left;
+  font-weight: 600;
+  font-size: 30px;
+  text-transform: none;
 }
 
 
