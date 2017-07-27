@@ -53,7 +53,7 @@ text-align: center;
 
 
 .ham-position {
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 10px;
   }
